@@ -32,5 +32,3 @@ RUN wget --no-check-certificate https://nodejs.org/dist/${NODE_VER}/${NODE_DIR}.
 WORKDIR /app
 
 VOLUME /app
-
-EXPOSE 3000
